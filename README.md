@@ -1,29 +1,15 @@
-# Python Projects
+# Python Projects Portfolio
 
-This repository contains my Python practice projects created while learning programming at university and through personal study.
+This repository contains small but practical Python projects built while learning programming.
 
----
+## 🏃 Run Tracker
+A simple app that tracks running distance and time, calculates pace, and saves data to CSV.
 
-## What I’m learning
+### Features
+- Add multiple runs
+- Calculates pace automatically
+- Saves data to CSV file
 
-- Python basics  
-- Variables, loops, functions  
-- File handling  
-- Git & GitHub workflow  
-- Tkinter (basic GUI)
-
----
-
-## Projects included
-
-### BMI Calculator
-
-A simple Python program that calculates Body Mass Index (BMI) based on user input.
-
-```python
-weight = float(input("Weight (kg): "))
-height = float(input("Height (m): "))
-
-bmi = weight / (height ** 2)
-
-print("BMI:", round(bmi, 2))
+### How to run
+```bash
+python run_tracker/run_tracker.py
