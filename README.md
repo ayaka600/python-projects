@@ -1,15 +1,22 @@
 # Python Projects Portfolio
 
-This repository contains small but practical Python projects built while learning programming.
+This repository contains small Python projects built while learning Python.
 
 ## 🏃 Run Tracker
-A simple app that tracks running distance and time, calculates pace, and saves data to CSV.
+Tracks running distance and time, calculates pace, and saves data to CSV.
 
 ### Features
 - Add multiple runs
 - Calculates pace automatically
-- Saves data to CSV file
+- Saves to CSV
 
-### How to run
-```bash
+### Run
 python run_tracker/run_tracker.py
+
+---
+
+## 🧮 BMI Calculator
+Simple BMI calculator using user input.
+
+### Run
+python bmi_calculator/bmi.py
